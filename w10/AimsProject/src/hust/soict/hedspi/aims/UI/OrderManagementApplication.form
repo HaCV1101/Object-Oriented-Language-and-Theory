@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hust.soict.hedspi.aims.UI.OrderManagementApplication">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5bafa" class="javax.swing.JButton" binding="createNewOrderButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Create new order"/>
+        </properties>
+      </component>
+      <component id="146aa" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="e2fe8" class="javax.swing.JButton" binding="displayTheItemsListButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Display the items list of order"/>
+        </properties>
+      </component>
+      <component id="99422" class="javax.swing.JButton" binding="deleteItemByIdButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Delete item by id"/>
+        </properties>
+      </component>
+      <component id="a1a7f" class="javax.swing.JButton" binding="addItemToTheButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Add item to the order"/>
+        </properties>
+      </component>
+      <vspacer id="8ba08">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="628cc">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

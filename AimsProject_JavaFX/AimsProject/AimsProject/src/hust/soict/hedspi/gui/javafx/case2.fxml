@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.hedspi.gui.javafx.aimsController">
+   <children>
+      <Button layoutX="93.0" layoutY="94.0" mnemonicParsing="false" onAction="#btnAddBook" text="book" />
+      <Button layoutX="301.0" layoutY="94.0" mnemonicParsing="false" onAction="#btnAddDigitalVideoDisc" text="digitalVideoDisc" />
+      <Button layoutX="301.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnReturn" text="return" />
+      <Button layoutX="93.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnAddCompactDisc" text="compactDisc" />
+   </children>
+</AnchorPane>
